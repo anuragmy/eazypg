@@ -7,7 +7,7 @@ Assignment to get details and print pdf
 
 2) <code>yarn</code> or <code>npm i</code> 
 
-3) The details are name, address, age, amount as json in postman with the <code>POST</code> request in Postman 
+3) The details are name, address, age, amount and email as json in postman with the <code>POST</code> request in Postman 
  
     <code>POST http://loacalhost:3000/api/</code>
 
