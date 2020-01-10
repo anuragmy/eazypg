@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        padding: 30px;
+        margin: 30px;
+      }
+      table {
+        margin-top: 50px;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Users</title>
+  </head>
+  <body>
+    <h3>Slip no. <%- Math.ceil(Math.random() * 500) %></h3>
+    <h6>Date: <%- content.date %></h6>
+    <table class="table table-bordered table-hover table-striped">
+      <tr>
+        <td>Name</td>
+        <td><%- content.name %></td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td><%- content.age %></td>
+      </tr>
+      <tr>
+        <td>Address</td>
+        <td><%- content.address %></td>
+      </tr>
+      <tr>
+        <td>Amount paid</td>
+        <td><%- content.amount %> /-</td>
+      </tr>
+    </table>
+    <br/>
+    <span style="opacity: 0.5;">&#64EazyPG </span>
+  </body>
+</html>
